@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "username": "vysakh",
+      "email": "vy@123",
+      "password": "Vysakh@12345",
+      "id": "N90JTUJefo0"
+    },
+    {
+      "username": "manu",
+      "email": "Manu@123",
+      "password": "Manu@123",
+      "id": "ew0TzCHap_8"
+    },
+    {
+      "username": "kannan",
+      "email": "Kannan@123",
+      "password": "Kannan@123",
+      "id": "0_sVlopxEUc"
+    },
+    {
+      "username": "vyshnav",
+      "email": "Vyshnav@123",
+      "password": "Vyshnav@123",
+      "id": "CnmgUeQehZM"
+    },
+    {
+      "username": "kiran",
+      "email": "Kiran@123",
+      "password": "Kiran@123",
+      "id": "sSL4DJGTpoA"
+    },
+    {
+      "username": "manulal",
+      "email": "Manu@123",
+      "password": "Manu@123",
+      "id": "lD0sgdpd0MY"
+    }
+  ],
+  "savedPictures": [
+    {
+      "userId": "N90JTUJefo0",
+      "wallpaperId": "wallpaper-1",
+      "title": "Mountain",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85",
+      "id": "bmsstxp2750"
+    },
+    {
+      "userId": "N90JTUJefo0",
+      "wallpaperId": "wallpaper-18",
+      "title": "Blue Lake",
+      "image": "https://picsum.photos/seed/wallpaper-18/900/1200",
+      "id": "Akqx9rPaxu8"
+    },
+    {
+      "userId": "N90JTUJefo0",
+      "wallpaperId": "wallpaper-2",
+      "title": "Forest",
+      "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85",
+      "id": "9fggzOLdFlU"
+    },
+    {
+      "userId": "N90JTUJefo0",
+      "wallpaperId": "wallpaper-34",
+      "title": "Cherry Blossoms",
+      "image": "https://picsum.photos/seed/wallpaper-34/900/1200",
+      "id": "wSiljVS2zfQ"
+    },
+    {
+      "userId": "N90JTUJefo0",
+      "wallpaperId": "wallpaper-48",
+      "title": "Countryside",
+      "image": "https://picsum.photos/seed/wallpaper-48/900/1200",
+      "id": "fTiWgFfsK0s"
+    },
+    {
+      "userId": "0_sVlopxEUc",
+      "wallpaperId": "wallpaper-18",
+      "title": "Blue Lake",
+      "image": "https://picsum.photos/seed/wallpaper-18/900/1200",
+      "id": "pwZgpBzTkD8"
+    },
+    {
+      "userId": "0_sVlopxEUc",
+      "wallpaperId": "wallpaper-1",
+      "title": "Mountain",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85",
+      "id": "Y6veQEePzGs"
+    },
+    {
+      "userId": "CnmgUeQehZM",
+      "wallpaperId": "wallpaper-1",
+      "title": "Mountain",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85",
+      "id": "FabhDjmdWzg"
+    },
+    {
+      "userId": "sSL4DJGTpoA",
+      "wallpaperId": "wallpaper-1",
+      "title": "Mountain",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85",
+      "id": "7wAw92k_QsU"
+    },
+    {
+      "userId": "sSL4DJGTpoA",
+      "wallpaperId": "wallpaper-18",
+      "title": "Blue Lake",
+      "image": "https://picsum.photos/seed/wallpaper-18/900/1200",
+      "id": "79KzjTipcrU"
+    },
+    {
+      "userId": "sSL4DJGTpoA",
+      "wallpaperId": "wallpaper-32",
+      "title": "Snowy Forest",
+      "image": "https://picsum.photos/seed/wallpaper-32/900/1200",
+      "id": "gzYngBv0RTk"
+    },
+    {
+      "userId": "sSL4DJGTpoA",
+      "wallpaperId": "wallpaper-46",
+      "title": "Neon City",
+      "image": "https://picsum.photos/seed/wallpaper-46/900/1200",
+      "id": "tJ30OZ0vVkQ"
+    },
+    {
+      "userId": "lD0sgdpd0MY",
+      "wallpaperId": "wallpaper-1",
+      "title": "Mountain",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85",
+      "id": "3wUTr79saW0"
+    },
+    {
+      "userId": "lD0sgdpd0MY",
+      "wallpaperId": "wallpaper-2",
+      "title": "Forest",
+      "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85",
+      "id": "0oimtWgUapY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
