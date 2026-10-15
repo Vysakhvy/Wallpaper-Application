@@ -28,7 +28,7 @@ npm run server
 
 This starts JSON Server at:
 
-http://localhost:3000
+http://https://wallpaper-application.onrender.com
 
 ### Terminal 2 - Start React
 
