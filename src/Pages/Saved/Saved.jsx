@@ -15,7 +15,7 @@ function Saved() {
 
     const loadSaved = async () => {
       try {
-        const response = await fetch(`https://https://wallpaper-application.onrender.com/savedPictures?userId=${user.id}`)
+        const response = await fetch(`https://wallpaper-application.onrender.com/savedPictures?userId=${user.id}`)
         if (!response.ok) throw new Error()
         setSavedPictures(await response.json())
       } catch {
@@ -52,7 +52,7 @@ function Saved() {
 
   const removeWallpaper = async (picture) => {
     try {
-      await fetch(`https://https://wallpaper-application.onrender.com/savedPictures/${picture.id}`, {
+      await fetch(`https://wallpaper-application.onrender.com/savedPictures/${picture.id}`, {
         method: 'DELETE'
       })
       setSavedPictures((old) => old.filter((item) => item.id !== picture.id))

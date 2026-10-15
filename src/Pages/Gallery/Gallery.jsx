@@ -82,7 +82,7 @@ function Gallery() {
 
     const loadSavedPictures = async () => {
       try {
-        const response = await fetch(`https://https://wallpaper-application.onrender.com/savedPictures?userId=${user.id}`)
+        const response = await fetch(`https://wallpaper-application.onrender.com/savedPictures?userId=${user.id}`)
         if (!response.ok) throw new Error()
         setSavedPictures(await response.json())
       } catch {
@@ -136,12 +136,12 @@ function Gallery() {
 
     try {
       if (existing) {
-        await fetch(`https://https://wallpaper-application.onrender.com/savedPictures/${existing.id}`, {
+        await fetch(`https://wallpaper-application.onrender.com/savedPictures/${existing.id}`, {
           method: 'DELETE'
         })
         setSavedPictures((old) => old.filter((picture) => picture.id !== existing.id))
       } else {
-        const response = await fetch('https://https://wallpaper-application.onrender.com/savedPictures', {
+        const response = await fetch('https://wallpaper-application.onrender.com/savedPictures', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

@@ -31,7 +31,7 @@ function Register() {
 
     try {
       const checkResponse = await fetch(
-        `https://https://wallpaper-application.onrender.com/users?username=${encodeURIComponent(username)}`
+        `https://wallpaper-application.onrender.com/users?username=${encodeURIComponent(username)}`
       )
       const existingUsers = await checkResponse.json()
 
@@ -40,7 +40,7 @@ function Register() {
         return
       }
 
-      await fetch('https://https://wallpaper-application.onrender.com/users', {
+      await fetch('https://wallpaper-application.onrender.com/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
