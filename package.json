@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    
+    
     "dev": "vite --open",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "server": "json-server --watch db.json --port 3000"
+    "start": "json-server --watch db.json --port 3000"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.3.1",

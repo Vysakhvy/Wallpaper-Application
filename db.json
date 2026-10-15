@@ -35,6 +35,12 @@
       "email": "Manu@123",
       "password": "Manu@123",
       "id": "lD0sgdpd0MY"
+    },
+    {
+      "username": "sewag",
+      "email": "Sewag@123",
+      "password": "Sewag@123",
+      "id": "Srr3WjFhN7M"
     }
   ],
   "savedPictures": [
@@ -135,6 +141,27 @@
       "title": "Forest",
       "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=85",
       "id": "0oimtWgUapY"
+    },
+    {
+      "userId": "Srr3WjFhN7M",
+      "wallpaperId": "wallpaper-1",
+      "title": "Mountain",
+      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85",
+      "id": "6xTZJLC-7Dg"
+    },
+    {
+      "userId": "Srr3WjFhN7M",
+      "wallpaperId": "wallpaper-16",
+      "title": "Autumn Road",
+      "image": "https://picsum.photos/seed/wallpaper-16/900/1200",
+      "id": "ZIQdwTkNVds"
+    },
+    {
+      "userId": "Srr3WjFhN7M",
+      "wallpaperId": "wallpaper-31",
+      "title": "Winter Trees",
+      "image": "https://picsum.photos/seed/wallpaper-31/900/1200",
+      "id": "J1Gupk4_rv4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
